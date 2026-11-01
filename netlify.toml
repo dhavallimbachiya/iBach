@@ -1,0 +1,6 @@
+# Static WordPress export. Publish the repository root with no build step so
+# the header logo rules travel with the HTML instead of depending on a UI
+# publish directory or a build that can leave the previous deploy in place.
+[build]
+  publish = "."
+  command = "echo static site"
