@@ -1,0 +1,269 @@
+/* Shared fixes for the static iBACH Group site. */
+
+.et_pb_text_inner a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.et_pb_text_inner a:hover,
+.et_pb_text_inner a:focus {
+  text-decoration: underline;
+}
+
+.ibach-site-footer {
+  clear: both;
+  text-align: center;
+  padding: 28px 16px 36px;
+  background: #0b2340;
+  color: #f3e6c4;
+  font-family: Poppins, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.ibach-site-footer p {
+  margin: 0 0 6px;
+  color: inherit;
+}
+
+.ibach-site-footer a {
+  color: #ffffff;
+}
+
+.et_pb_image:has(.ibach-card),
+.et_pb_image:has(.ibach-banner),
+.et_pb_image:has(.ibach-specialties) {
+  line-height: 1.5;
+}
+
+.ibach-card,
+.ibach-banner {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  background: #dd1b06;
+  color: #ffffff;
+  border-radius: 28px;
+  padding: 36px 32px;
+  text-align: left;
+}
+
+.ibach-card h2,
+.ibach-banner h2 {
+  color: #ffffff;
+  font-size: clamp(26px, 4vw, 40px);
+  line-height: 1.2;
+  margin: 0 0 12px;
+  padding: 0;
+}
+
+.ibach-card p,
+.ibach-banner p,
+.ibach-banner .ibach-banner-kicker {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.ibach-banner-kicker {
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.ibach-card-navy {
+  background: #0b2340;
+}
+
+.ibach-specialties {
+  color: #222222;
+  font-size: 20px;
+  line-height: 1.7;
+  margin: 8px 0 0;
+  padding-left: 1.2em;
+  text-align: left;
+}
+
+.ibach-opportunities {
+  background: #faf7f7;
+  border: 1px solid #f2d0d4;
+  border-radius: 16px;
+  padding: 28px 24px;
+  text-align: center;
+}
+
+.ibach-opportunities h2 {
+  margin: 0 0 10px;
+  color: #222222;
+}
+
+.ibach-opportunities p {
+  margin: 0 0 12px;
+  color: #333333;
+}
+
+.ibach-opportunities a {
+  color: #dd1b06;
+  font-weight: 600;
+}
+
+.ibach-netlify-form .et_pb_contact_field,
+.ibach-netlify-form p {
+  margin-bottom: 14px;
+}
+
+.ibach-netlify-form label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: #222222;
+}
+
+.ibach-netlify-form input[type="text"],
+.ibach-netlify-form input[type="email"],
+.ibach-netlify-form input[type="tel"],
+.ibach-netlify-form textarea {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  border: 1px solid #bbbbbb;
+  border-radius: 4px;
+  font: inherit;
+  background: #ffffff;
+  color: #222222;
+  -webkit-appearance: auto;
+  appearance: auto;
+}
+
+.ibach-netlify-form textarea {
+  min-height: 140px;
+}
+
+.ibach-netlify-form input[type="file"] {
+  display: block;
+  margin-top: 6px;
+  font: inherit;
+  -webkit-appearance: auto;
+  appearance: auto;
+}
+
+.ibach-netlify-form button,
+.ibach-netlify-form .et_pb_contact_submit {
+  cursor: pointer;
+}
+
+.ibach-form-email {
+  margin-top: 8px;
+}
+
+.ibach-form-email a,
+.ibach-resume-note a {
+  color: #dd1b06;
+  font-weight: 600;
+}
+
+.ibach-honeypot {
+  position: absolute;
+  left: -9999px;
+  height: 0;
+  width: 0;
+  overflow: hidden;
+}
+
+.ibach-chrome {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 12px 24px;
+  background: #ffffff;
+  border-bottom: 1px solid #f0e6e6;
+  font-family: Poppins, Helvetica, Arial, sans-serif;
+}
+
+.ibach-chrome-logo img {
+  width: 76px;
+  height: 76px;
+  display: block;
+  object-fit: contain;
+}
+
+.ibach-chrome nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 18px;
+}
+
+.ibach-chrome nav a {
+  color: #111111;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.ibach-chrome nav a:hover,
+.ibach-chrome nav a:focus {
+  text-decoration: underline;
+}
+
+.ibach-chrome-apply {
+  background: #dd1b06;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-weight: 600;
+}
+
+.ibach-chrome-footer {
+  background: #0b2340;
+  color: #f3e6c4;
+  text-align: center;
+  padding: 28px 16px 36px;
+  font-family: Poppins, Helvetica, Arial, sans-serif;
+}
+
+.ibach-chrome-footer nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px 18px;
+  margin-bottom: 14px;
+}
+
+.ibach-chrome-footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.ibach-chrome-footer a:hover,
+.ibach-chrome-footer a:focus {
+  text-decoration: underline;
+}
+
+.ibach-chrome-footer p {
+  margin: 0 0 6px;
+}
+
+.ibach-simple {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 56px 24px 72px;
+  font-family: Poppins, Helvetica, Arial, sans-serif;
+  color: #222222;
+}
+
+.ibach-simple h1 {
+  font-size: clamp(32px, 5vw, 46px);
+  margin: 0 0 12px;
+}
+
+.ibach-simple a {
+  color: #dd1b06;
+  font-weight: 600;
+}
